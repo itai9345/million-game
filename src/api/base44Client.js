@@ -39,7 +39,7 @@ export const base44 = {
                             "התגובה היא אקסותרמית (פולטת חום)"
                         ],
                         category: "energy",
-                        image_url: "/images/reaction_graph.png",
+                        image_url: "images/reaction_graph.png",
                         explanation: "בגרף רואים שהתוצרים נמצאים ברמה אנרגטית גבוהה מהמגיבים (\"מדרגה עולה\"), כלומר המערכת קלטה אנרגיה. לכן התגובה אנדותרמית ושינוי האנתלפיה (ΔH) חיובי."
                     },
                     {
@@ -76,7 +76,7 @@ export const base44 = {
                             "המערכת תסטה לכיוון המגיבים (שמאלה), כי הלחץ שם נמוך יותר"
                         ],
                         category: "equilibrium",
-                        image_url: "/images/piston_experiment.png",
+                        image_url: "images/piston_experiment.png",
                         explanation: "בתגובה יש 4 מולים של גז במגיבים ורק 2 בתוצרים. הגדלת הלחץ (דחיסה) גורמת למערכת \"לרצות\" לתפוס פחות נפח, ולכן היא תזוז לכיוון עם פחות מולים (התוצרים)"
                     },
                     {
@@ -113,7 +113,7 @@ export const base44 = {
                             "מעבר מ-I ל-II (היתוך)"
                         ],
                         category: "entropy",
-                        image_url: "/images/states_of_matter_diagram.png",
+                        image_url: "images/states_of_matter_diagram.png",
                         explanation: "ירידה באנטרופיה משמעה מעבר ממצב של אי-סדר גבוה למצב מסודר. המעבר מגז (III - בלאגן מקסימלי) למוצק (I - סדר מקסימלי) הוא הירידה החדה ביותר באנטרופיה"
                     },
                     {
@@ -138,7 +138,7 @@ export const base44 = {
                             "את העלייה באנטרופיה של המערכת"
                         ],
                         category: "kinetics",
-                        image_url: "/images/activation_energy_graph_v2.png",
+                        image_url: "images/activation_energy_graph_v2.png",
                         explanation: "הזרז מציע מסלול חליפי לתגובה הדורש פחות אנרגיה כדי להתחיל (גבעה נמוכה יותר). ההפרש בגבהים הוא כמות האנרגיה \"שנחסכה\""
                     },
                     {

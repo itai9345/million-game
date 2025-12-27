@@ -36,9 +36,7 @@ export default function QuestionCard({ question, currentLevel }) {
       {question.image_url && (
         <div className="mt-4 flex justify-center">
           <img
-            src={question.image_url.startsWith('/')
-              ? `${import.meta.env.BASE_URL}${question.image_url.slice(1)}`
-              : question.image_url}
+            src={question.image_url}
             alt="גרף השאלה"
             className="max-w-full h-auto rounded-lg border border-slate-600"
           />
