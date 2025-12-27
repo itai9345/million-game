@@ -12,7 +12,7 @@ const categoryInfo = {
 export default function QuestionCard({ question, currentLevel }) {
   const category = categoryInfo[question.category] || categoryInfo.energy;
   const Icon = category.icon;
-  
+
   return (
     <motion.div
       initial={{ opacity: 0, y: -20 }}
@@ -28,15 +28,17 @@ export default function QuestionCard({ question, currentLevel }) {
           שאלה {currentLevel} מתוך 15
         </Badge>
       </div>
-      
+
       <h2 className="text-xl md:text-2xl font-bold text-white leading-relaxed text-right">
         {question.question_text}
       </h2>
-      
+
       {question.image_url && (
         <div className="mt-4 flex justify-center">
-          <img 
-            src={question.image_url} 
+          <img
+            src={question.image_url.startsWith('/')
+              ? `${import.meta.env.BASE_URL}${question.image_url.slice(1)}`
+              : question.image_url}
             alt="גרף השאלה"
             className="max-w-full h-auto rounded-lg border border-slate-600"
           />
